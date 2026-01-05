@@ -22,3 +22,12 @@ class Solution{
         }
     }
 };
+
+int main(){
+    Solution s;
+    vector<int>nums{12,23,45,65,78,99};
+    int target =110;
+    vector<int>ans= s.twosum(nums,target);
+    cout << ans[0] << " " << ans[1] << endl;
+    return 0;
+}
